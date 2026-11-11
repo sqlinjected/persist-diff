@@ -1,3 +1,3 @@
 # persist-diff
-Windows persist diff program
-Open source
+- Windows persist diff program
+- open source
