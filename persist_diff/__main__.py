@@ -49,10 +49,10 @@ def main():
     if sys.platform != "win32":
         parser.error("Snapshot collection requires Windows.")
 
-    from . import run_keys, scheduled_tasks, winlogon, startup_folders
+    from . import run_keys, scheduled_tasks, winlogon, startup_folders, services
 
     try:
-        entries = run_keys.collect() | scheduled_tasks.collect() | winlogon.collect() | startup_folders.collect()
+        entries = run_keys.collect() | scheduled_tasks.collect() | winlogon.collect() | startup_folders.collect() | services.collect()
         with args.output.open("x", encoding="utf-8") as output:
             json.dump(entries, output, indent=2, sort_keys=True)
             output.write("\n")
