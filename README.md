@@ -10,8 +10,7 @@ Useful for checking what an installer, update, or sketchy download added to your
 - Scheduled tasks
 - Winlogon Shell and Userinit
 - Startup folders (user + all users)
-
-Planned: services.
+- Services and drivers (ImagePath + start type)
 
 ## Requirements
 
