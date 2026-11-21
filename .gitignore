@@ -3,5 +3,5 @@ __pycache__/
 .venv/
 *.egg-info/
 .pytest_cache/
-# real snapshots contain hostnames and installed software
+# real snapshots contain hostnames and installed software info
 *.json
