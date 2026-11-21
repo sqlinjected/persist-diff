@@ -9,8 +9,9 @@ Useful for checking what an installer, update, or sketchy download added to your
 - Run and RunOnce keys (HKLM + HKCU, including 32-bit WOW6432Node)
 - Scheduled tasks
 - Winlogon Shell and Userinit
+- Startup folders (user + all users)
 
-Planned: services, startup folders.
+Planned: services.
 
 ## Requirements
 
